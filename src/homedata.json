@@ -1,0 +1,28 @@
+{
+  "entries": [
+      {
+        "title": "Popular Series",
+        "programType": "series",
+        "images": {
+          "PosterArt": {
+            "url": "https://qph.cf2.quoracdn.net/main-qimg-2cd4de50c761b1c9d27571de48996029",
+            "width": 1000,
+            "height": 1500
+          }
+        },
+        "releaseYear": 2016
+      },
+      {
+        "title": "Popular Movies",
+        "programType": "movies",
+        "images": {
+          "PosterArt": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Movies_Coverart.jpg",
+            "width": 1000,
+            "height": 1500
+          }
+        },
+        "releaseYear": 2015
+      }
+  ]
+}

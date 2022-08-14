@@ -1,0 +1,187 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.body-container {
+  margin: 20px 100px;
+}
+
+.App-header {
+  background-color: #2979ff;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.sec-app-header {
+  background-color: #212121;
+  min-height: 50px;
+  color: white;
+}
+
+.header-block {
+  display: inline;
+}
+
+.home-btn {
+  line-height: 45px;
+  margin-left: 20px;
+  display: inline;
+  cursor: pointer;
+}
+
+.home-btn-icon:hover {
+  transform: scale(1.5);
+}
+
+.title-text {
+  display: inline;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.header-text {
+  position: relative;
+  top: 15px;
+  left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header-btns {
+  line-height: 65px;
+}
+
+.login-btn {
+  margin-right: 50px;
+}
+
+.trail-btn {
+  color: white;
+  background-color: #212121;
+  margin-right: 20px;
+  line-height: 20px;
+}
+
+.search-box {
+  text-align: center;
+  margin-top: 10px;
+  position: sticky;
+  top: 30px;
+}
+
+.search-box i{
+  position: relative;
+  left: 30px;
+  bottom: 3px;
+  font-size: 22px;
+}
+
+.search-box > input[type=text]{
+    width: 50%;
+    height: 50px;
+    font-size: 1.9rem;
+    padding-left: 40px;
+}
+
+
+.programs-list-container {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.programs-list-container > div {
+  width: 16%;
+}
+
+.program-tiles {
+  max-height: 320px;
+  border: 2px solid darkgrey;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.program-tiles:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.program-title {
+  margin-left: 12px;
+  margin-bottom: 15px;
+}
+
+.program-tiles > img { 
+  width: 100%; 
+  height: auto; 
+  min-height: 280px;
+  max-height: 280px;
+}
+
+.modal-title-name {
+  color: #2979ff !important;
+}
+
+.fun-facts {
+  color: #ef6c00;
+  font-weight: bold;
+}
+
+.modal-footer-block {
+  align-item: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+@media (min-width: 320px) {
+    .programs-list-container > div {
+      width: 100%;
+    }
+    .search-box > input[type=text] {
+      width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .programs-list-container > div {
+      width: 50%;
+    }
+    .search-box > input[type=text] {
+      width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .programs-list-container > div {
+      width: 33%;
+    }
+    .search-box > input[type=text] {
+      width: 70%;
+    }
+}
+
+@media (min-width: 1224px) {
+    .programs-list-container > div {
+      width: 25%;
+    }
+    .search-box > input[type=text] {
+      width: 60%;
+    }
+}
+
+@media (min-width: 1824px) {
+    .programs-list-container > div {
+      width: 16%;
+    }
+    .search-box > input[type=text] {
+      width: 50%;
+    }
+}
+
+
+
+
+
+
